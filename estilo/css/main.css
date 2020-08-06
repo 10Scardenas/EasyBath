@@ -1,0 +1,614 @@
+/* general */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 81.25%;
+}
+
+/* utilidades generales */
+.font-2 {
+    font-size: 15px;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50%!important;
+    }
+}
+
+.descounts {
+    font-size: 12px;
+    color: #6B6F6F;
+}
+
+/* navbar */
+hr {
+    border: .5px solid #c7c7c765;
+    width: 100%;
+    margin-top: 10px;
+}
+@media (max-width: 992px) {
+    .scrollNav {
+        height: 350px;
+        overflow-y: scroll;
+    }
+}
+.dropdown-toggle::after {
+    right: -2px!important;
+}
+
+/* formulario principal */
+@media (min-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+    .main-form {
+        width: 440px;
+        position: absolute!important;
+        top: 150px;
+        left: 100px;
+    }
+    .carousel-item img {
+        width: 1400px!important;
+        height: 658px;
+    }
+}
+.topbar-divider {
+    width: 0;
+    border-right: 1px solid #e3e6f0;
+    height: 1.5rem;
+    margin: auto 1rem;
+}
+/* recomendados */
+#recomendaciones,
+#destinos,
+#alojamientos {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+#recomendaciones .card,
+#alojamientos .card {
+    height: 200px;
+}
+@media (min-width: 992px) {
+    #recomendaciones .card {
+        height: 230px;
+    }
+}
+#recomendaciones .card-title,
+#recomendaciones .card-text {
+    color: #fff!important;
+}
+.bg-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+}
+.bg-recomendado-1 {
+    background-image: url(../img/recomendaciones/santa_marta.jpg);
+}
+.bg-recomendado-2 {
+    background-image: url(../img/recomendaciones/floridablanca.jpg);
+}
+.bg-recomendado-3 {
+    background-image: url(../img/recomendaciones/medellin.jpg);
+}
+.bg-recomendado-4 {
+    background-image: url(../img/recomendaciones/cartagena.jpg);
+}
+.bg-recomendado-5 {
+    background-image: url(../img/recomendaciones/bogota.jpg);
+}
+.bg-recomendado-1:hover,
+.bg-recomendado-2:hover,
+.bg-recomendado-3:hover,
+.bg-recomendado-4:hover,
+.bg-recomendado-5:hover {
+    cursor: pointer;
+    text-decoration: none;
+    -ms-transform: scale(1.01); /* IE 9 */
+    -webkit-transform: scale(1.01); /* Safari 3-8 */
+    transform: scale(1.01); 
+}
+.card:hover {
+    border: 1px solid #c7c7c7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* unirse al equipo */
+.integrarse {
+    background-image: url(../img/banners2/unirse.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: #0000003a;
+    background-blend-mode: soft-light;
+    padding: 9rem 0;
+}
+@media (min-width: 768px) {
+    .display-md-2 {
+        font-size:5.5rem;
+        font-weight:300;
+        line-height:1.2;
+    }
+}
+.btn-outline-custom {
+    color:#f8f9fa;
+    border-color:#f8f9fa;
+}
+.btn-outline-custom:hover {
+    color:#fff;
+    background-color:#dc3545;
+    border-color:#dc3545;
+}
+.btn-outline-custom.focus,.btn-outline-custom:focus {
+    box-shadow:0 0 0 .2rem rgba(220,53,69,.5);
+}
+/* alojamientos */
+#alojamientos .card-title,
+#alojamientos .card-footer {
+    color: #fff!important;
+}
+.bg-alojamiento-1 {
+    background-image: url(../img/alojamientos/apartamentos.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-alojamiento-2 {
+    background-image: url(../img/alojamientos/resorts.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-alojamiento-3 {
+    background-image: url(../img/alojamientos/villas.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-alojamiento-4 {
+    background-image: url(../img/alojamientos/chalets.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-alojamiento-5 {
+    background-image: url(../img/alojamientos/cabanas.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-alojamiento-6 {
+    background-image: url(../img/alojamientos/clampings.jpg);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+/* encuesta uso internet */
+.uso-internet {
+    background-image: url(../img/banners2/uso_internet.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: #0000003a;
+    background-blend-mode: soft-light;
+    padding: 2rem 0;
+}
+/* footer */
+.site-footer {
+    line-height: 2.2;
+}
+.site-footer h4 {
+    color: #fff!important;
+}
+.site-footer p,
+.site-footer>* {
+    color: #c7c7c7!important;
+}
+.site-footer ul li {
+    list-style: none;
+}
+.site-footer nav a i {
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+    .site-footer nav a i {
+        font-size: 30px;
+    }    
+}
+
+/*********/
+/* login */
+/*********/
+.login-logo:hover {
+    text-decoration: underline;
+}
+.bg-login-image {
+    background: url("../img/login/img_apoyoescolar.jpg");
+    background-position: right;
+    background-size: cover;
+    border-radius: 4px 0 0 4px;
+}
+.main-login i {
+    font-size: 1.3rem;
+}
+
+.form-control:focus {
+    color: #6e707e;
+    background-color: #fff;
+    border-color: #b9bece;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(93, 94, 97, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(93, 94, 97, 0.25);
+}
+
+form.user .custom-checkbox.small label {
+    line-height: 1.5rem;
+}
+  
+form.user .form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1.5rem 1rem;
+}
+  
+form.user .btn-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+}
+  
+.btn-google {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;
+}
+  
+.btn-google:hover {
+    color: #fff;
+    background-color: #e12717;
+    border-color: #e6e6e6;
+}
+  
+.btn-google:focus, .btn-google.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+  
+.btn-google.disabled, .btn-google:disabled {
+    color: #fff;
+    background-color: #ea4335;
+    border-color: #fff;
+}
+
+.btn-google:not(:disabled):not(.disabled):active, .btn-google:not(:disabled):not(.disabled).active,
+.show > .btn-google.dropdown-toggle {
+    color: #fff;
+    background-color: #d62516;
+    border-color: #dfdfdf;
+}
+
+.btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus,
+.show > .btn-google.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #30497c;
+    border-color: #e6e6e6;
+}
+
+.btn-facebook:focus, .btn-facebook.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.btn-facebook.disabled, .btn-facebook:disabled {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #fff;
+}
+
+.btn-facebook:not(:disabled):not(.disabled):active, .btn-facebook:not(:disabled):not(.disabled).active,
+.show > .btn-facebook.dropdown-toggle {
+    color: #fff;
+    background-color: #2d4373;
+    border-color: #dfdfdf;
+}
+
+.btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus,
+.show > .btn-facebook.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.field-btn a:hover {
+    color: #224abe;
+    text-decoration: underline;
+}
+
+/***************/
+/* registrarse */
+/***************/
+.bg-register-image {
+    background: url("../img/login/img_register.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px 0 0 4px;
+}
+
+/*********************/
+/* olvido contraseña */
+/*********************/
+.bg-forgot-password-image {
+    background: url("../img/login/img_forgot_password.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px 0 0 4px;
+}
+
+/**********************/
+/* Pagina de busqueda */
+/**********************/
+.text-reduce {
+    font-size: 90%;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .wrapper {
+        margin-left: 10px;
+    }
+}
+#sidebar {
+    min-width: 95%;
+    max-width: 95%;
+    width: 95%;
+    transition: all 0.3s;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    #sidebar {
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+    }
+    #sidebar {
+        min-width: 300px;
+        max-width: 300px;
+        transition: all 0.3s;
+    }
+}
+#sidebar.active {
+    margin-left: -300px;
+}
+@media (min-width: 768px) {
+    #sidebar.active {
+        transform: translate(-500px);
+    }
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+ul.CTAs {
+    padding: 20px;
+}
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+#content {
+    width: 100%;
+    padding: 5px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+@media (min-width: 768px) {
+    #content {
+        padding: 20px!important;
+    }
+}
+@media (max-width: 768px) {
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* contenido principal de la pagina de busqueda */
+.bg-minimap {
+    background-image: url(../img/busqueda/minimap.png);
+    background-color: #00000070;
+    background-blend-mode: soft-light;
+}
+.bg-minimap-2 {
+    background-image: url(../img/busqueda/minimap.png);
+}
+.card-text i {
+    font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+    .card-text i {
+        font-size: 2rem;
+    }
+}
+/* modificando el tamaño de modal */
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+      width: 700px;
+    }
+    .modal-sm {
+      width: 350px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .modal-lg {
+      width: 950px;
+    }
+}
+#ver-mapa .card-text>* {
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+}
+#ver-mapa .card:hover,
+.ver-resultado-mapa .card:hover {
+    border: 1px solid #0e86e9;
+    font-size: 15px;
+}
+/* mapa */
+#map, #map2 {
+    width: 100%;
+    height: 300px;
+}
+
+/* item busqueda */
+.booking-item:hover,
+.booking-item:focus {
+    background-color: #f8f9fa;
+    border-color:#007bff!important;
+    box-shadow: 0 4px 8px 0 rgba(105, 181, 253, 0.39), 0 6px 20px 0 rgba(105, 181, 253, 0.39);
+}
+.booking-header {
+    /*background: url("../img/busqueda/playa_blanca.jpg");*/
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 4px 4px 0 0;
+}
+@media (min-width: 768px) {
+    .booking-header {
+        height: auto;
+        width: 300px;
+        border-radius: 4px 0 0 4px;
+    }
+}
+.booking-info:hover {
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid #e9e9e9;
+    padding: 5px 10px;
+}
+
+/**************************/
+/* resultados de busqueda */
+/**************************/
+.reserva-ahora button,
+.btn-ver-mapa {
+    border: 3px solid #fff;
+}
+.reserva-ahora .btn-primary:hover,
+.btn-ver-mapa:hover {
+    color: #fff;
+    background-color: #0351a5;
+    border-color: #fff;
+}
+.reserva-ahora .btn-dark:hover {
+    color: #fff;
+    background-color: #181a1d;
+    border-color: #fff;
+}
+.booking-result-header .booking-title h5 {
+    line-height: 2;
+}
+/* carrusel de imagenes */
+@media (min-width: 768px) {
+    .booking-result-header .booking-title h5 {
+        line-height: 1;
+    }
+    #parkHotelImages .carousel-item img,
+    #HotelImages .carousel-item img {
+        width: 100%!important;
+        max-height: 500px;
+        height: 100%;
+    }
+}
+/* informacion principal */
+.booking-result-main-info {
+    line-height: 1.7;
+}
+/* sidebar */
+.ver-resultado-mapa .card-body {
+    padding: 2rem!important;
+}
+.ver-resultado-mapa i {
+    font-size: 35px;
+}
+
+/*********************/
+/* pagina de reserva */
+/*********************/
+.payment-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
